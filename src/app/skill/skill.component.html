@@ -1,0 +1,91 @@
+<h1 class="title">Skill</h1>
+
+<div class="custom-select">
+    <select [(ngModel)]="s1" #ctrl="ngModel" style="width: 200px; height: 45px; background-color: gray;"  name="skill1">
+      <option value="0" disabled selected hidden>Skill:</option>
+      <option value="Graphic Designer">Graphic Designer</option>
+      <option value="Strategic Planning">Strategic Planning</option>
+      <option value="Programming">Programming</option>
+    </select>
+    &nbsp;&nbsp;&nbsp;
+   
+        <mat-slider [(ngModel)]="ss1" #ctrl="ngModel" thumbLabel tickInterval="1" max="7"></mat-slider>
+    
+    <p></p>
+    <select [(ngModel)]="s2" #ctrl="ngModel"  style="width: 200px; height: 45px; background-color: gray;"  name="skill2">
+        <option value="0" disabled selected hidden>Skill:</option>
+        <option value="Graphic Designer">Graphic Designer</option>
+        <option value="Strategic Planning">Strategic Planning</option>
+        <option value="Programming">Programming</option>
+      </select>
+      &nbsp;&nbsp;&nbsp;
+
+        <mat-slider [(ngModel)]="ss2" #ctrl="ngModel"  thumbLabel tickInterval="1" max="7"></mat-slider>
+        <div *ngIf="Skill" class="newskill"> 
+            <p></p>
+            <select [(ngModel)]="s3" #ctrl="ngModel"  style="width: 200px; height: 45px; background-color: gray;"  name="skill3">
+              <option value="Graphic Designer">Graphic Designer</option>
+              <option value="Strategic Planning">Strategic Planning</option>
+              <option value="Programming">Programming</option>
+              </select>
+              &nbsp;&nbsp;&nbsp;
+              <mat-slider [(ngModel)]="ss3" #ctrl="ngModel" thumbLabel tickInterval="1" max="7"></mat-slider>
+            </div>
+        
+        <p></p>
+        <button (click)="toggleSkill()" id="plus" class="add"></button>
+</div>
+<h1 class="title2">Language</h1>
+
+<div class="language-select">
+    <select [(ngModel)]="l1" #ctrl="ngModel" style="width: 200px; height: 45px; background-color: gray;"  name="language1">
+        <option value="0" disabled selected hidden>Language:</option>
+        <option value="English">English</option>
+        <option value="Hungarian">Hungarian</option>
+        <option value="German">German</option>
+      </select>
+
+      &nbsp;&nbsp;&nbsp;
+
+      <select [(ngModel)]="ll1" #ctrl="ngModel" style="width: 200px; height: 45px; background-color: gray;"  name="langlevel1">
+        <option value="0" disabled selected hidden>Level:</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+      </select>
+<div *ngIf="Language">
+    <p></p>
+    <select [(ngModel)]="l2" #ctrl="ngModel" style="width: 200px; height: 45px; background-color: gray;"  name="language1">
+        <option value="0" disabled selected hidden>Language:</option>
+        <option value="English">English</option>
+        <option value="Hungarian">Hungarian</option>
+        <option value="German">German</option>
+      </select>
+
+      &nbsp;&nbsp;&nbsp;
+
+      <select [(ngModel)]="ll2" #ctrl="ngModel" style="width: 200px; height: 45px; background-color: gray;"  name="langlevel1">
+        <option value="0" disabled selected hidden>Level:</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+      </select>
+    </div>
+
+      <p></p>
+      <button (click)="toggleLanguage()" id="plus2" class="add"></button>
+</div>
+<h1 class="title3">License</h1>
+<div class="license-select">
+    <select [(ngModel)]="lic" #ctrl="ngModel" style="width: 200px; height: 45px; background-color: gray;"  name="license">
+        <option value="0" disabled selected hidden>License:</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+        </select>
+</div>
+<div class="bu">
+  <button class="myButton"  (click)="Skillsb()">Previous</button>&nbsp;
+<button  class="myButton"  (click)="Skills(s1,s2,s3,l1,l2,l3,ll1,ll2,ll3,lic,ss1,ss2,ss3)">Next</button>
+
+
+</div>

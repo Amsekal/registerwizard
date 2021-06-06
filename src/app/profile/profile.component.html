@@ -1,0 +1,13 @@
+<div class="image" style="text-align:center">
+	<div [innerHtml]='msg' *ngIf="msg" style="color: red;"></div>
+	<div><img id="profilp" [src]="url" *ngIf="url" style="width:250px;height:250px; border:10px solid red;"></div>
+	<p>
+		<input type="file" (change)="selectFile($event)">
+	</p>
+</div>
+<div class="buttons">
+<button class="myButton" (click)="PPb()">Previous</button>
+&nbsp;
+<button class="myButton2" (click)="PP()">Next</button>
+
+</div>

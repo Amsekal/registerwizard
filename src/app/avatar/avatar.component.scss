@@ -1,0 +1,91 @@
+.avatars{
+    position: relative;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.title{
+    text-align: center;
+    color:#333333;
+}
+
+.buttons{
+    width:250px ;
+    height:250px ;
+    background-size: cover;
+    background-color: Transparent;
+    border: none;
+    
+    
+}
+
+#one{
+    background-image: url(../../assets/a1.png);
+    height: 175px;
+    width: 175px;
+}
+#two{
+    background-image: url(../../assets/a2.png);    height: 175px;
+    width: 175px;
+}
+#thr{
+    background-image: url(../../assets/a3.png);    height: 175px;
+    width: 175px;
+}
+#fou{
+    background-image: url(../../assets/a4.png);    height: 175px;
+    width: 175px;
+}
+
+
+#one:focus{
+    height: 180px;
+    width: 180px;
+}
+
+#two:focus{
+    height: 180px;
+    width: 180px;
+}
+
+#thr:focus{
+    height: 180px;
+    width: 180px;
+}
+
+#fou:focus{
+    height: 180px;
+    width: 180px;
+}
+
+
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #1d53f2;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+
+	margin-top: 25%;
+
+    
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.bu{
+    text-align: center;
+}

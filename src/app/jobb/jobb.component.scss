@@ -1,0 +1,48 @@
+body{
+    position:absolute;
+    right:150%;
+    bottom: 0%;
+    background: #232323;
+    border-radius: 6px;
+    }
+
+.no{
+    text-align: center;
+    color:black;
+}
+.yes{
+    text-align: center;
+    color:white;
+}
+
+.dot {
+   
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    background-color:green;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot2 {
+    
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.column{
+    width: 100%;
+    color: #232323;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none; 
+}
+

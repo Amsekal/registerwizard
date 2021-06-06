@@ -1,0 +1,102 @@
+.custom-select {
+    top: 5%;
+    text-align: center;
+    position: relative;
+    font-family: Arial;
+    
+ }
+ .title{
+    left: 47.5%;
+    color: grey;
+    font-size:small;
+    position: relative;
+}
+.title2{
+    top:12%;
+    left: 46%;
+    color: grey;
+    font-size:small;
+    position: relative;
+}
+.title3{
+    top:17%;
+    left: 46.5%;
+    color: grey;
+    font-size:small;
+    position: relative;
+}
+
+.add{
+    border-radius: 50%;
+    position: relative;
+width: 50px;
+height: 50px;
+border: none;
+background-size: cover;
+background-image: url(../../assets/plus.png);
+
+}
+.add:hover{
+    cursor: pointer;
+}
+.newskill{
+    position: relative;
+    top:50%
+}
+
+.language-select{
+    top: 10%;
+    text-align: center;
+    position: relative;
+    font-family: Arial;
+}
+.license-select{
+    top: 15%;
+    text-align: center;
+    position: relative;
+    font-family: Arial; 
+}
+
+::ng-deep .mat-accent .mat-slider-thumb {
+    background-color: white;
+} 
+::ng-deep .mat-accent .mat-slider-thumb-label {
+    background-color: #555555;
+} 
+::ng-deep .mat-accent .mat-slider-track-fill {
+    background-color: grey;
+} 
+.buttons{
+    position: relative;
+    top:20%;
+    left:70%
+}
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #1d53f2;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+
+	margin-top: 25%;
+
+    
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.bu{
+    text-align: center;
+}

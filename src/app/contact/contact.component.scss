@@ -1,0 +1,85 @@
+.textb1 {
+    top:10%;
+    position: relative;
+    left: 17%;
+    font-family: Arial;}
+
+.textb2 {
+    top:20%;
+    position: relative;
+    left: 17%;
+    font-family: Arial;}
+
+.add{border-radius: 50%;
+    position: relative;
+width: 50px;
+height: 50px;
+border: none;
+background-size: cover;
+top:15%;
+margin-left: 48%;
+}
+
+.add2{
+    border-radius: 50%;
+    position: relative;
+width: 50px;
+height: 50px;
+border: none;
+background-size: cover;
+top:25%;
+margin-left: 48%;
+}
+#plus{
+    background-image: url(../../assets/plus.png);
+}
+#phone2{
+    top:30%;
+    position: relative;
+}
+
+.extra{
+    position: relative;
+    top:27%;
+    text-align: center;
+    left: 1.45%;
+}
+.add:hover{
+    cursor: pointer;
+}
+.add2:hover{
+    cursor: pointer;
+}
+
+::placeholder{
+    color: white;}
+
+    .myButton {
+        box-shadow: 0px 0px 0px 2px #9fb4f2;
+        background-color:#7892c2;
+        border-radius:10px;
+        border:1px solid #1d53f2;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Georgia;
+        font-size:19px;
+        padding:12px 37px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #283966;
+    
+        margin-top: 45%;
+    
+        
+    }
+    .myButton:hover {
+        background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+        background-color:#476e9e;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+    .bu{
+        text-align: center;
+    }

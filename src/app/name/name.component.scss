@@ -1,0 +1,55 @@
+
+.textb1 {
+    top:10%;
+    position: relative;
+    left: 18%;
+    font-family: Arial;}
+
+.textb2 {
+    top:20%;
+    position: relative;
+    left: 18%;
+    font-family: Arial;}
+
+
+    
+input, select, textarea{
+        color: white;
+        font-weight: bold;
+    }
+
+::placeholder{
+    color: white;
+}
+.buttons{
+   position: relative;
+    margin-top:70%;
+}
+
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #1d53f2;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+	margin-top: 25%;
+    margin-left: 70%;
+    
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        

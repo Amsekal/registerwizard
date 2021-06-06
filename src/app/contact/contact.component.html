@@ -1,0 +1,45 @@
+<div class="textb1">
+    <input  [(ngModel)]="p1" #ctrl="ngModel"  type="tel" style="width: 500px; height: 10px; background-color: gray;" placeholder="Phone Number">
+    <ng-container *ngIf="Phone">
+    <input [(ngModel)]="p2" #ctrl="ngModel" name="phone2"  type="tel" style="width: 500px; height: 10px; background-color: gray;" placeholder="Phone Number">
+    
+    </ng-container>
+</div>
+
+<button (click)="togglePhone()" id="plus" class="add"></button>
+    
+
+
+<div class="textb2">
+    <input  [(ngModel)]="e1" #ctrl="ngModel" name="mail1"  type="email" style="width: 500px; height: 10px; background-color: gray;" placeholder="E-mail">
+    <ng-container *ngIf="Email">
+    <input  [(ngModel)]="e2" #ctrl="ngModel" name="phone2"  type="email" style="width: 500px; height: 10px; background-color: gray;" placeholder="E-mail">
+    
+    </ng-container>
+</div>
+
+<button (click)="toggleMail()" id="plus" class="add2"></button>
+
+<div class="extra">
+<img src="../../assets/tw.png" style="width: 75px; height: 75px">
+<p></p>
+<input  [(ngModel)]="tw" #ctrl="ngModel" name="twitter"  type="text" style="width: 200px; height: 10px; background-color: gray;" placeholder="Twitter account">
+<p></p>
+<img src="../../assets/fb.png" style="width: 75px; height: 75px">
+<p></p>
+<input  [(ngModel)]="fb" #ctrl="ngModel" name="facebook"  type="text" style="width: 200px; height: 10px; background-color: gray;" placeholder="Facebook account">
+</div>
+    
+<div class="bu">
+    <button class="myButton" (click)="Contactb()">Previous</button>&nbsp;
+    <button class="myButton" (click)="Contact(p1,p2,e1,e2,fb,tw)">Next</button>
+    
+  </div>
+
+
+
+
+
+
+
+

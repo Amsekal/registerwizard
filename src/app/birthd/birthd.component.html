@@ -1,0 +1,23 @@
+<div class="custom-select" name="lang">
+    <h1 class="title">Country of Birth</h1>
+    <select [(ngModel)]="birthc" #ctrl="ngModel" style="width: 500px; height: 45px; background-color: gray;">
+      <option value="0" disabled selected hidden>Country of Birth:</option>
+      <option value="U.K.">U.K.</option>
+      <option value="Hungary">Hungary</option>
+      <option value="Germany">Germany</option>
+    </select>
+</div>
+
+<div class="birth">
+    <h1 class="title">Date of Birth</h1>
+    
+    <input [(ngModel)]="date" #ctrl="ngModel" type="date" id="start" name="trip-start"
+           min="1900-01-01" max="2021-01-01" style="width: 500px; height: 45px; background-color: gray;">
+           
+    </div>
+    <div class="bu">
+      <button class="myButton" (click)="Birthb()">Previous</button>
+      &nbsp;
+    <button class="myButton" (click)="Birth(birthc,date)">Next</button>
+    
+  </div>
